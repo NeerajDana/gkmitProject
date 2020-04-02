@@ -20,6 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "gh-pages-deploy": "node scripts/gh-pages-deploy.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,6 +40,7 @@
   },
   "devDependencies": {
     "react-redux": "^7.2.0",
+    "execa": "4.0.0",
     "redux": "^4.0.5",
     "redux-saga": "^1.1.3"
   }
